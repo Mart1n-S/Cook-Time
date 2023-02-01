@@ -89,6 +89,7 @@
             <a href="index.php?action=accueil" class="lienIcone">
                 <img src="./images/logo.png" alt="logo lien accueil site de recettes cuisine" title="Retour Accueil">
             </a>
+            <h1><a href="index.php?action=accueil" title="Retour Accueil">Cook-Time</a></h1>
             <div class="liensNavigation">
                 <a href="index.php?action=accueil" <?php if (isset($navigationEnCours) && $navigationEnCours == 'accueil') {
                                                         echo ' id="navigationEnCours"';
