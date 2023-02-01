@@ -1,0 +1,231 @@
+.cardInscription{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.cardInscription form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.sousLogo{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.containerFormulaireInscription{
+    display: flex;
+    justify-content: center;
+    width: 720px;
+    /* height: 1287px; */
+    background-color:rgba(66, 52, 150, 1);
+    border-radius: 8px;
+    padding: 64px 32px;
+}
+
+.logoSite{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 32px 0px;
+}
+
+form div{
+    position: relative;   
+}
+
+.entreeNomInscription, .entreePrenomInscription, .entreeAgeInscription, .entreePhotoProfilInscription, .entreeEmailInscription, .entreeEmailInscriptionConfirmation, .entreeMotDePasseInscription, .entreeMotDePasseInscriptionConfirmation{
+    margin-top: 16px;
+}
+
+.entreeNomInscription input, .entreePrenomInscription input, .entreeEmailInscription input, .entreeEmailInscriptionConfirmation input, .entreeMotDePasseInscription input, .entreeMotDePasseInscriptionConfirmation input{
+    width: 440px;
+    height: 49px;
+    padding: 0px 0px 0px 16px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    border: none;
+    background: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonVoirMotDePasse{
+    display: flex;
+    align-items: center;
+}
+
+.boutonVoirMotDePasse span{
+    display: flex;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0px 0px 0px 16px;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+    border: none;
+}
+
+.boutonVoirMotDePasse span:hover{
+    background-color: #667cf7;
+    cursor: pointer;
+}
+
+.entreeAgeInscription input{
+    border: none;
+    border-radius: 8px;
+    font-family: 'Manrope', sans-serif;
+    height: 49px;
+    cursor: pointer;
+    padding: 0px 8px 0px 8px;
+    font-size: 1em;
+    inline-size: 128px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+cursor: pointer;
+}
+
+#nomInscription1:hover, #prenomInscription1:hover, #ageInscription1:hover, #emailInscription1:hover, #emailInscriptionConfirmation1:hover, #motDePasseInscription1:hover, #motDePasseInscriptionConfirmation1:hover{
+    background-color: #c5cae9;
+}
+
+#nomInscription1:focus, #prenomInscription1:focus, #ageInscription1:focus, #emailInscription1:focus,  #emailInscriptionConfirmation1:focus, #motDePasseInscription1:focus, #motDePasseInscriptionConfirmation1:focus{
+    background-color: white;
+}
+
+.entreeNomInscription label, .entreePrenomInscription label, .entreeAgeInscription label, .labelSolide, .entreeEmailInscription label, .entreeEmailInscriptionConfirmation label, .entreeMotDePasseInscription label, .entreeMotDePasseInscriptionConfirmation label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 0 0 8px 8px;
+    color: white;
+}
+
+.entreePhotoProfilInscription #labelPhotoFacultatif{
+    margin-left: 8px;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    color: #a5b4fc;
+}
+
+.material-symbols-rounded {
+    margin-right: 8px;
+}
+
+.containerBoutonInscription{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.boutonInscription{
+    width: 200px;
+    height: 49px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonInscription:hover{
+    cursor: pointer;
+    background-color: #667cf7;
+}
+
+/* Spécifiquement le upload de l'image */
+
+.entreePhotoProfilInscription ol{
+    margin: 0;
+}
+
+.entreePhotoProfilInscription div > p{
+    background:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 57px;
+    list-style-type: none;
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+    
+}
+
+.entreePhotoProfilInscription li{
+    background:white;
+    display: flex;
+    width: 264px;    
+    list-style-type: none;
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+    word-break: break-all;
+}
+
+.entreePhotoProfilInscription img{
+    margin-right: 8px;
+    height: 64px;
+}
+
+#PhotoProfilInscription1{
+    opacity: 0;
+}
+
+.supprimerImage{
+    position: absolute;
+    top: 20px;
+    right: -68px;
+}
+
+.supprimerImage img{
+    height: 32px;
+}
+
+.supprimerImage:hover{
+    cursor: pointer;
+}
+
+.containerFauxInput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fauxBouton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 4px;
+    flex-wrap: wrap;
+    width: 128px;
+    height: 49px;
+    font-size: 0.9em;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.fauxBouton:hover{
+    cursor: pointer;
+    background-color: #667cf7;
+}
+
+.erreur{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 8px 8px;
+    color: rgba(255, 47, 47, 1);
+    font-weight: bold;
+}
+
+.erreurAgeProfil{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 0px;
+    bottom: 79px;
+}

@@ -1,0 +1,50 @@
+.cardSupprimerRecetteProfil{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.cardSupprimerRecetteProfil p{
+    color: white;
+    margin: 32px 0px 64px 0px;
+    font-size: 1.2em;
+}
+
+.containerSupprimerRecetteProfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+    background-color:rgba(66, 52, 150, 1);
+    border-radius: 8px;
+    padding: 64px 32px;
+}
+
+.containerSupprimerRecetteProfil h3{
+    text-transform: uppercase;
+}
+
+.photoMaRecette{
+    margin-bottom: 32px;
+    width: 600px;
+}
+
+.photoRecette, .photoRecetteDefaut{
+    width: 100%; 
+    border-radius: 8px;
+}
+
+.boutonSupprimerDéfinitivement{
+    width: 200px;
+    height: 49px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(255, 47, 47, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonSupprimerDéfinitivement:hover{
+    cursor: pointer;
+    background-color: #ed6767;
+}

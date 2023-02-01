@@ -1,0 +1,34 @@
+.cardErreurContact{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.cardErreurContact p{
+    text-align: center;
+    font-size: 1.3em;
+    padding: 12px;
+    margin-top: 32px;
+}
+
+.cardErreurContact a{
+    color: #a5b4fc;
+}
+
+.containerMessageErreur{
+    height: 411px;
+    width: 720px;
+    padding: 64px 0 64px 0;
+    background-color:rgba(66, 52, 150, 1);
+    border-radius: 8px;
+}
+
+.badEmote{
+    display: flex;
+    justify-content: center;
+    padding: 32px 0px 32px 0px;
+}
+
+.badEmote .material-symbols-rounded{
+    font-size: 224px !important;
+}

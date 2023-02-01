@@ -1,0 +1,555 @@
+.headerRecettes{
+    padding: 0px;
+    background: none;
+}
+
+.navigationRecettes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.liensNavigationRecettes{
+    background: rgba(165, 180, 252, 0.6);
+    padding: 12px;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    border-radius: 55px;
+}
+.liensNavigationRecettes a{
+    margin: 0px;
+    color: white;
+}
+
+.liensNavigationRecettes a{
+    display: inline-block;
+    position: relative;
+}
+
+.liensNavigationRecettes a:hover{
+    text-decoration: none;
+    color: #000B6F;
+}
+
+.liensNavigationRecettes a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    background-color: #000B6F;
+    transition: transform 0.2s ease-out;
+}
+
+.liensNavigationRecettes a:hover::after{
+    transform: scaleX(1);
+}
+
+.liensNavigationRecettes a::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    background-color: #000B6F;
+    transition: transform 0.2s ease-out;
+}
+
+.liensNavigationRecettes a:hover::before{
+    transform: scaleX(1);
+}
+#navigationEnCoursRecette{
+    border-width: 1px 0px;
+    border-style: solid;
+    color: #000B6F;
+}
+
+#navigationEnCoursRecette:hover{
+    text-decoration: none;
+}
+
+.menuNavigationRecettes{
+    padding: 80px;
+}
+
+/* /////// CSS CARD RECETTES ///////  */
+
+.sectionRecettePublic{
+    padding: 0px 80px 80px 80px;
+}
+
+.cardRecettePublic{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.cardRecettePublic p{
+    color: white;
+    margin-bottom: 64px;
+    font-size: 1.2em;
+}
+
+.containerRecettePublic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+    background-color:rgba(66, 52, 150, 1);
+    border-radius: 8px;
+    padding: 64px 32px;
+}
+
+.containerRecettePublic h3{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.containerPhotoRecettePublic{
+    margin-bottom: 32px;
+    width: 600px;
+}
+
+.photoRecettePublic, .photoRecetteDefaut{
+    width: 100%; 
+    border-radius: 8px;
+}
+
+h3 .material-symbols-rounded{
+    display: flex !important;
+    align-self: center !important;
+    font-size: 56px !important;
+    margin: 0px 0px 0px 8px !important;
+}
+
+ul {
+    list-style-position: inside; /* aligne l'image de la puce avec le début du texte */
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 32px;
+}
+ul li {
+    display: flex; /* permet d'aligner l'image et le texte horizontalement */
+    align-items: center; /* aligne l'image et le texte verticalement */
+    width: 31%;
+    padding: 16px 0px 16px 0px;
+    color: white;
+    font-size: 1.2em;
+}
+ul li::before {
+    content: ""; /* ajoute une puce vide avant le texte */
+    margin-right: 10px; /* ajoute un espace entre l'image et le texte */
+    background-image: url('../images/style/listeIngredient.svg'); /* ajoute l'image de la puce */
+    background-size: contain; /* ajuste la taille de l'image à celle de la puce */
+    background-repeat: no-repeat;
+    width: 43px; /* définit la largeur de la puce */
+    height: 24px; /* définit la hauteur de la puce */
+}
+
+.etapesRecettePublic{
+    padding: 0px 32px 0px 32px;
+}
+
+/* PAGINATION */
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    align-items: center;
+}
+
+.pagination a{
+    width: 58px;
+    height: 58px;
+    display: flex;
+    background-color: #667cf7 ;
+    color: white;
+    border-radius: 8px;    
+    justify-content: center;
+    margin: 0px 4px;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.pagination a:hover{
+    text-decoration: none;
+    /* color: white; */
+    background-color: #a5b4fc;
+    cursor: pointer;
+}
+
+.pagination a:active{
+    width: 54px !important;
+    height: 54px !important;
+    background-color: rgba(66, 52, 150, 1) !important;
+   
+}
+
+.checkPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px ;
+    height: 50px;
+    padding: 4px;
+    font-size: 1.2em;
+    color: white;
+    background-color: rgba(66, 52, 150, 1);
+    border-radius: 8px;
+    margin: 0px 12px 0px 12px;
+}
+
+.checkPage span{
+    font-size: 1.2em;
+}
+
+.checkPage2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px ;
+    height: 50px;
+    padding: 4px;
+    font-size: 1.2em;
+    color: white;
+    background-color: rgba(66, 52, 150, 1);
+    border-radius: 8px;
+
+}
+
+.checkPage2 span{
+    font-size: 1.2em;
+}
+
+.navPage2{
+    color: white;
+    font-size: 1.2em;   
+    text-align: center;
+    margin-right: 4px;
+}
+
+.boutonOK{
+    position: relative;
+    left: 17px;
+    bottom: 3px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #667cf7;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonOK:hover{
+    background-color: #a5b4fc;
+    cursor: pointer;
+}
+
+.boutonOK:active{
+    width: 26px !important;
+    height: 26px !important;
+    background-color: rgba(66, 52, 150, 1) !important;
+   
+}
+
+.navPage{
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;   
+    text-align: center;
+    cursor: pointer;
+}
+.navPage:hover{
+    background-color: #667cf7 ;
+    border-radius: 8px;
+}
+
+.navPage:focus{
+    background-color: #667cf7 ;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.formulaireRecherche{
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.recherche{
+    width: 430px;
+    height: 49px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.recherche:hover{
+    background-color: #c5cae9;
+}
+
+.recherche:focus{
+    background-color: white;
+    border-radius: 8px;
+}
+
+.validationRecherche{
+    margin-left: 32px;
+    border-radius: 8px;
+    background-color: rgba(64, 92, 245, 1);
+    border: none;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.validationRecherche:hover{
+    background-color: #7484d7;
+    cursor: pointer;
+}
+
+.containerRecherche{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.afficherRecherche{
+    background: white;
+    position: relative;
+    top: -64px;
+    width: 448px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    right: 58px;
+    list-style: none;
+}
+
+.afficherRecherche ol{
+    padding: 0px;
+}
+
+.afficherRecherche li{
+    list-style: none;
+    padding: 8px 0px 8px 16px;
+}
+
+.afficherRecherche li:hover{
+    background-color: #c5cae9;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.afficherRecherche a{
+    text-decoration: none;
+}
+
+.containerCarousel{
+    display: flex;
+    height: 173px;
+    width: 664px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.commentaire{
+    background-color: #6F79AE;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.containerCommentaire h4{
+    display: flex;
+    justify-content: center;
+}
+
+.containerInfosUser{
+    display: flex;
+}
+
+.infoUser{
+ margin-bottom: 4px;   
+}
+
+.photoProfil img, .photoUtilisateur {
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+.contenuCommentaire{
+    margin-top: 16px;
+    color: white;
+    width: 600px;
+    word-wrap: break-word;
+}
+.ajoutCommentaire{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 32px;
+}
+
+.boutonAjoutCommentaire{
+    display: flex;
+    padding: 4px 4px 0px 0px;
+    color: #a5b4fc;
+    font-size: 1.2em;
+}
+
+.boutonAjoutCommentaire:hover{
+    text-decoration: none;
+    color: #d4c5e9;
+    cursor: pointer;
+}
+
+.ajoutCommentaire span{
+    margin-left: 8px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 24px !important;
+}
+
+
+.boutonScrollCommentaire{
+    display: flex;
+    margin-top: 32px;
+}
+
+#scrollLeft{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+    margin-right: 32px;
+    border-radius: 8px;
+    height: 32px;
+    background-color: rgba(64, 92, 245, 1);
+    border: none;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+#scrollLeft:hover{
+    background-color: #7484d7;
+    cursor: pointer;
+}
+
+#scrollRight:hover{
+    background-color: #7484d7;
+    cursor: pointer;
+}
+
+#scrollRight{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+    margin-left: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: rgba(64, 92, 245, 1);
+    border: none;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.nombreCommentaire{
+    color: white;
+    margin-bottom: 16px !important;
+    font-size: 1.1em !important;
+}
+
+
+/* commentaire */
+.inputCommentaire{
+    display: none;
+}
+
+.inputCommentaire form{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.inputCommentaire label{
+    display: flex;
+    padding: 8px;
+    color: white;
+}
+
+label span{
+    margin-left: 4px;
+}
+
+.commentaireContenu{
+    min-width: 440px;
+    max-width: 440px;
+    min-height: 100px;
+    max-height: 150px;
+    padding: 8px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    border: none;
+    background: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.commentaireContenu:hover{
+    background-color: #c5cae9;
+}
+
+.commentaireContenu:focus{
+    background-color: white;
+}
+
+.containerValidationCommentaire{
+    display: flex;
+    justify-content: center;
+}
+
+.validationCommentaire{
+    width: 120px;
+    height: 32px;
+    border-radius: 8px;
+    margin-top: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.validationCommentaire:hover{
+    cursor: pointer;
+    background-color: #d4c5e9;
+}
+
+.erreur{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 8px 8px;
+    color: rgba(255, 47, 47, 1)!important;
+    font-weight: bold;
+}

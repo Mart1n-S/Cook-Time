@@ -1,0 +1,367 @@
+.sectionInformationsProfil{
+    padding: 80px 80px 80px 80px;
+}
+
+.cardProfil{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.containerInformationsProfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+    background-color:rgba(66, 52, 150, 1);
+    border-radius: 8px;
+    padding: 64px 32px;
+}
+
+.photoProfil .photoUtilisateur{
+  width: 200px; /* Taille du cercle */
+  height: 200px;
+  border-radius: 50%; /* Rend le conteneur arrondi */
+  overflow: hidden; /* Cache le contenu qui dépasse du conteneur */
+  background-position: center; /* Centre l'image */
+  background-repeat: no-repeat; /* Ne répète pas l'image */
+  object-fit: cover;
+  background-size: cover; /* Ajuste l'image à la taille du conteneur */  
+  border: 2px solid black; 
+}
+
+.containerInformationsProfil h3{
+    margin: 32px 0px 32px 0px;
+}
+
+.containerInformationsProfil p{
+    display: flex;
+    align-items: center;
+    cursor: text;
+    width: 430px;
+    height: 49px;
+    padding: 0px 0px 0px 16px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.containerInformationsProfil label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 0 0 8px 8px;
+    color: white;
+}
+
+.containerInformationsProfil2 div{
+    margin-top: 32px;
+}
+
+.material-symbols-rounded {
+    margin-right: 8px;
+}
+
+.containerInformationsProfil form{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.boutonModifierProfil{
+    width: 200px;
+    height: 49px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonModifierProfil:hover{
+    cursor: pointer;
+    background-color: #667cf7;
+}
+
+/* ///////////////////////////// SECTION AJOUTER RECETTE ///////////////////////////// */
+
+.sectionMesPublicationsProfil{
+    padding: 0px 80px 80px 80px;
+}
+
+.cardMesPublications{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.containerInformationsMesPublications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+    background-color:rgba(66, 52, 150, 1);
+    border-radius: 8px;
+    padding: 64px 32px;
+}
+
+.containerInformationsMesPublications h3{
+    margin: 0px;
+}
+
+.containerInformationsMesPublications label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 0 0 18px 8px;
+    color: white;
+}
+
+.containerInformationsMesPublications p{
+    display: flex;
+    align-items: center;
+    cursor: text;
+    justify-content: center;
+    color: white;
+    width: 430px;
+    height: 49px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    border: 1px solid white;
+    background: rgb(255 255 255 / 0.1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.compteurRecettes{
+    margin-top: 32px;
+}
+
+.containerInformationsMesPublications form{
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.boutonAjouterRecette{
+    width: 200px;
+    height: 49px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonAjouterRecette:hover{
+    cursor: pointer;
+    background-color: #667cf7;
+}
+
+/* ///////////////////// SECTION MES RECETTES  //////////////////////////: */
+
+.sectionMesRecettesProfil{
+    padding: 0px 80px 80px 80px;
+}
+
+.cardMesRecettes{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.cardMesRecettes p{
+    color: white;
+    margin-bottom: 64px;
+    font-size: 1.2em;
+    word-break: break-word;
+}
+
+.containerMesRecettes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+    background-color:rgba(66, 52, 150, 1);
+    border-radius: 8px;
+    padding: 64px 32px;
+}
+
+.photoMesRecettes{
+    margin-bottom: 32px;
+    width: 600px;
+}
+
+.photoRecette, .photoRecetteDefaut{
+    width: 100%; 
+    border-radius: 8px;
+}
+
+.containerMesRecettes h3{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+h3 span{
+    display: flex !important;
+    align-self: center !important;
+    font-size: 56px !important;
+    margin: 0px 0px 0px 8px !important;
+}
+
+ul {
+    list-style-position: inside; /* aligne l'image de la puce avec le début du texte */
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 32px;
+}
+ul li {
+    display: flex; /* permet d'aligner l'image et le texte horizontalement */
+    align-items: center; /* aligne l'image et le texte verticalement */
+    width: 31%;
+    padding: 16px 0px 16px 0px;
+    color: white;
+    font-size: 1.2em;
+}
+ul li::before {
+    content: ""; /* ajoute une puce vide avant le texte */
+    margin-right: 10px; /* ajoute un espace entre l'image et le texte */
+    background-image: url('../images/style/listeIngredient.svg'); /* ajoute l'image de la puce */
+    background-size: contain; /* ajuste la taille de l'image à celle de la puce */
+    background-repeat: no-repeat;
+    width: 43px; /* définit la largeur de la puce */
+    height: 24px; /* définit la hauteur de la puce */
+}
+
+.etapesMesRecettes{
+    padding: 0px 32px 0px 32px;
+    width: 656px;
+}
+
+.boutonModifierSupprimer{
+    display: flex;
+    flex-direction: row;
+}
+
+.modifierRecetteProfil{
+    margin-right: 32px;
+}
+
+.boutonModifierRecette{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 49px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonModifierRecette:hover{
+    cursor: pointer;
+    background-color: #667cf7;
+    text-decoration: none;
+}
+
+.supprimerRecetteProfil{
+    margin-left: 32px;
+}
+
+.boutonSupprimerRecette{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 49px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(255, 47, 47, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonSupprimerRecette:hover{
+    cursor: pointer;
+    background-color: #ed6767;
+    text-decoration: none;
+}
+
+/* /// CSS checkBox /// */
+
+.checkboxVisibiliteRecetteProfil{
+    display: flex;
+    align-self: flex-end;
+    margin-top: 32px;
+}
+
+.checkboxVisibiliteRecetteProfil label{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    color: white;
+    font-size: 1.2em;
+}
+
+input[type="checkbox"].toggle{
+    position: relative;
+    width: 64px;
+    height: 30px;
+    appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .4);   
+    transition: 0.5s; 
+}
+
+input:checked[type="checkbox"].toggle{
+    background: rgba(64, 92, 245, 1);
+}
+
+
+input[type="checkbox"].toggle::before{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    top: 0px;
+    left: 0px;
+    background:white;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+input:checked[type="checkbox"].toggle::before{
+    left: 34px;
+}
+
+.checkboxVisibiliteRecetteProfil::after{
+    content: "OFF";
+    position: relative;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: black;
+    top: 5px;
+    right: 9%;  
+}
+
+.checkboxVisibiliteRecetteProfil::before{
+    content: "ON";
+    position: relative;
+    z-index: 1;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+    top: 5px;
+    left: 77%;  
+}

@@ -1,0 +1,119 @@
+.cardContact{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.cardContact form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.cardContact p{
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 0px 0px 8px;
+    color: white;
+    opacity: 0.65;
+}
+
+.containerFormulaireContact{
+    display: flex;
+    justify-content: center;
+    height: 534px;
+    width: 720px;
+    padding: 64px 0 64px 0;
+    background-color:rgba(66, 52, 150, 1);
+    border-radius: 8px;
+}
+
+form .entreeEmailContact .entreeMessageContact{
+    position: relative;
+}
+
+.entreeMessageContact{
+    height:270px;
+    margin-top: 64px;
+}
+
+.entreeEmailContact input{
+    width: 440px;
+    height: 49px;
+    padding: 0px 0px 0px 8px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    border: none;
+    background: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.entreeMessageContact textarea{
+    min-width: 440px;
+    max-width: 440px;
+    min-height: 177px;
+    max-height: 270px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.3em;
+    background: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.entreeEmailContact input:hover, .entreeMessageContact textarea:hover{
+    background-color: #c5cae9; 
+}
+
+.entreeEmailContact input:focus, .entreeMessageContact textarea:focus{
+    background-color: white;
+}
+
+.entreeEmailContact label, .entreeMessageContact label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 0 0 8px 8px;
+    color: white;
+}
+
+.material-symbols-rounded {
+    margin-right: 8px;
+}
+
+.containerBoutonEnvoyer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.boutonEnvoyer{
+    width: 200px;
+    height: 49px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonEnvoyer:hover{
+    cursor: pointer;
+    background-color: #667cf7;
+}
+
+
+.boutonAnnuler{
+    width: 200px;
+    height: 49px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(255, 47, 47, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonAnnuler:hover{
+    cursor: pointer;
+    background-color: #ed6767;
+}

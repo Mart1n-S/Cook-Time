@@ -1,0 +1,256 @@
+.topModifierProfil p{
+    color: white;
+}
+
+.cardModifierProfil{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.containerModifierProfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+    background-color:rgba(66, 52, 150, 1);
+    border-radius: 8px;
+    padding: 64px 32px;
+}
+
+form div {
+    position: relative;
+}
+
+.topModifierProfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photoModifierProfil .photoUtilisateur{
+    width: 200px; /* Taille du cercle */
+    height: 200px;
+    border-radius: 50%; /* Rend le conteneur arrondi */
+    overflow: hidden; /* Cache le contenu qui dépasse du conteneur */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Ne répète pas l'image */
+    object-fit: cover;
+    background-size: cover; /* Ajuste l'image à la taille du conteneur */  
+    border: 2px solid black; 
+}
+
+.containerModifierProfil h3{
+    margin: 32px 0px 32px 0px;
+}
+
+.entreeModifierNom label, .entreeModifierPrenom label, .entreeModifierAge label, .labelSolide, .entreeModifierEmail label, .entreeModifierConfirmationEmail label, .entreeAncienMotDePasse label, .entreeModifierMotDePasse label, .entreeModifierConfirmationMotDePasse label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 0 0 8px 8px;
+    color: white;
+}
+
+.material-symbols-rounded {
+    margin-right: 8px;
+}
+
+.entreeModifierNom input, .entreeModifierPrenom input, .entreeModifierEmail input, .entreeModifierConfirmationEmail input, .entreeAncienMotDePasse input, .entreeModifierMotDePasse input, .entreeModifierConfirmationMotDePasse input{
+    width: 430px;
+    height: 49px;
+    padding: 0px 0px 0px 16px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    border: none;
+    background: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.containerModifierInformationProfil input:hover{
+    background-color: #c5cae9;
+}
+
+.containerModifierInformationProfil input:focus{
+    background-color: white;
+}
+
+.entreeModifierAge input{
+    border: none;
+    border-radius: 8px;
+    font-family: 'Manrope', sans-serif;
+    height: 49px;
+    cursor: pointer;
+    padding: 0px 8px 0px 8px;
+    font-size: 1em;
+    inline-size: 128px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
+
+.entreeModifierPhoto #labelPhotoModifier{
+    margin-left: 8px;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    color: #a5b4fc;
+}
+
+#photoModifierProfil1{
+    opacity: 0;
+}
+
+.containerFauxInput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fauxBouton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 4px;
+    flex-wrap: wrap;
+    width: 128px;
+    height: 49px;
+    font-size: 0.9em;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.fauxBouton:hover{
+    cursor: pointer;
+    background-color: #667cf7;
+}
+
+.entreeModifierPhoto ol{
+    margin: 0;
+}
+
+.entreeModifierPhoto div > p{
+    background:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 57px;
+    list-style-type: none;
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+    
+}
+
+.entreeModifierPhoto li{
+    background:white;
+    display: flex;
+    width: 264px;    
+    list-style-type: none;
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+    word-break: break-all;
+}
+
+.entreeModifierPhoto img{
+    display: flex;
+    align-self: center;
+    margin-right: 8px;
+    height: 64px;
+}
+
+.supprimerImage{
+    position: absolute;
+    top: 423px;
+    right: -60px;
+}
+
+.supprimerImage img{
+    height: 32px;
+}
+
+.supprimerImage:hover{
+    cursor: pointer;
+}
+
+.entreeModifierNom, .entreeModifierPrenom, .entreeModifierAge, .entreeModifierPhoto, .entreeModifierEmail, .entreeModifierConfirmationEmail, .entreeAncienMotDePasse, .entreeModifierMotDePasse, .entreeModifierConfirmationMotDePasse{
+    margin-top: 32px;
+}
+
+.boutonVoirMotDePasse{
+    display: flex;
+    align-items: center;
+}
+
+.boutonVoirMotDePasse span{
+    display: flex;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+    border: none;
+    margin: 0px 0px 0px 16px;
+}
+
+.boutonVoirMotDePasse span:hover{
+    background-color: #667cf7;
+    cursor: pointer;
+}
+
+.containerBoutonModifierProfil{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.boutonModifierProfil{
+    width: 200px;
+    height: 49px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(64, 92, 245, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonModifierProfil:hover{
+    cursor: pointer;
+    background-color: #667cf7;
+}
+
+.boutonAnnuler{
+    width: 200px;
+    height: 49px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(255, 47, 47, 1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boutonAnnuler:hover{
+    cursor: pointer;
+    background-color: #ed6767;
+}
+
+.erreur{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 8px 8px;
+    color: rgba(255, 47, 47, 1);
+    font-weight: bold;
+}
+
+.erreurAgeProfil{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 0px;
+    bottom: 79px;
+}
