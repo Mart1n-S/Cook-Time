@@ -18,9 +18,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI1.png" alt="image home project cook-time" />
   <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI2.png" alt="image home project cook-time" />
-  <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI6.png" alt="image home project cook-time" />
-  <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI7.png" alt="image home project cook-time" /><br>
+  <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI5.png" alt="image home project cook-time" />
   <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI3.png" alt="image home project cook-time" /><br>
-  <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI5.png" alt="image home project cook-time" /><br>
-  <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI4.png" alt="image home project cook-time" />
+  <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI4.png" alt="image home project cook-time" /><br>
 </p>
