@@ -31,7 +31,7 @@ $recapitulatifContact = "recapitulatifContact";
         <?php  } else {
             $emailRecapitulatifContact = $postData['emailContact'];
             $messageRecapitulatifContact = wordwrap($resultatSupressionEspaces, 70, "\r\n");
-            $destinataire = "contact.cooktime@cook-time.online";
+            $destinataire = "emailServer@exemple.com";
             $sujet = "Contact Cook-Time";
             $contenuEnvoyerEmailHebergeur = "Email : " . $emailRecapitulatifContact . "\nMessage : " . $messageRecapitulatifContact;
             $expediteur = "From: " . $emailRecapitulatifContact;
