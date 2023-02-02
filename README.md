@@ -22,3 +22,30 @@
   <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI3 .png" alt="image home project cook-time" /><br>
   <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI4.png" alt="image home project cook-time" /><br>
 </p>
+
+## 🍪 Try me out
+
+> 👉 [Cook-Time](https://cook-time.online/)
+
+<br>
+
+## 🚀 Quick Start
+
+> 🛠 [Create data base](https://github.com/Mart1n-S/Cook-Time/blob/main/source/createDataBase.sql)<br>
+And add more units of measure in the table 'unites_mesure'<br>
+<hr>
+
+> 📫 [Add email server](https://github.com/Mart1n-S/Cook-Time/blob/main/App/recapitulatifContact.php)<br>
+Remember to put the email address of your server that manages emails (line 34)
+
+## 🔮 Future features
+> 🔐 Implement password recovery feature<br>
+><br><img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/feature1.2.png" alt="image password lost" /><br>
+<hr>
+
+> 💬 Implement functionality to edit or delete posted comments<br>
+<br><img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/feature2.3.png" alt="image update or delete comment" /><br>
+<hr>
+
+> 🧮 Implement the functionality of modifying the number of people for a recipe and which adjusts the quantities of ingredients automatically<br>
+<br><img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/feature3.3.png" alt="image update time of preparation" /><br>
