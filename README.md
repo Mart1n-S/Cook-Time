@@ -48,4 +48,4 @@ Remember to put the email address of your server that manages emails (line 34)
 <hr>
 
 > 🧮 Implement the functionality of modifying the number of people for a recipe and which adjusts the quantities of ingredients automatically<br>
-<br><img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/feature3.3.png" alt="image update time of preparation" /><br>
+<br><img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/feature3.4.png" alt="image update time of preparation" /><br>
