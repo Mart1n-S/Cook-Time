@@ -60,7 +60,7 @@ if (!utilisateurConnecte()) {
             <div class="cardMesPublications">
                 <h2>Mes publications</h2>
                 <div class="containerInformationsMesPublications">
-                    <h3>Compteur recettes</h3>
+                    <h3>Compteur de recettes</h3>
                     <div class="compteurRecettes">
                         <label><span class="material-symbols-rounded">add_comment</span>Nombre de recettes publiées</label>
                         <p><?php echo nombreRecettes(); ?></p>
