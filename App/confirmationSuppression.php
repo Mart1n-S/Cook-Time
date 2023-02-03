@@ -17,13 +17,13 @@ if (!utilisateurConnecte()) {
 
     <section>
         <div class="cardSuccesSuppression">
-            <h2>SUPPRIMÉ AVEC SUCCÉS<span class="material-symbols-rounded">celebration</span></h2>
+            <h2>SUPPRIMÉE AVEC SUCCÉS<span class="material-symbols-rounded">celebration</span></h2>
             <div class="containerInformationSuppresion">
                 <div class="logoSite">
                     <img src="./images/logoSiteRecettes.png" alt="logo site de recettes de cuisine">
                 </div>
 
-                <p>Votre recette à bien été supprimé.</p>
+                <p>Votre recette à bien été supprimée.</p>
 
                 <div class="retourProfil">
                     <a href="index.php?action=mon-profil" class="boutonRetourProfil">RETOURNER AU PROFIL</a>
