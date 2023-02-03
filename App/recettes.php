@@ -20,7 +20,7 @@ $navigationEnCours = "recettes";
                     <div class="nonConnecteEmote">
                         <span class="material-symbols-rounded">sensor_occupied</span>
                     </div>
-                    <p>Pour accéder aux recettes et aux autres fonctionnalitées du site merci de vous connecter. <a href="index.php?action=authentification">Se connecter</a></p>
+                    <p>Pour accéder aux recettes et aux autres fonctionnalités du site merci de vous connecter. <a href="index.php?action=authentification">Se connecter</a></p>
                 </div>
             </div>
         </section>
