@@ -22,7 +22,7 @@ if (isset($_SESSION['succesInscription']) && $_SESSION['succesInscription'] === 
         <section>
             <div class="cardSucces">
                 <h2><?php if (isset($inscription2) && $inscription2 == true) {
-                        echo 'INSCRIPTION RÉUSSITE';
+                        echo 'INSCRIPTION RÉUSSIE';
                     } else {
                         echo 'PROFIL MODIFIÉ AVEC SUCCÈS';
                     } ?><span class="material-symbols-rounded">celebration</span></h2>
