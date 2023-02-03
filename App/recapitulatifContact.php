@@ -48,7 +48,7 @@ $recapitulatifContact = "recapitulatifContact";
                 <div class="cardRecapitulatif">
                     <h2>Message bien reçu ! <span class="material-symbols-rounded">rocket_launch</span></h2>
                     <div class="containerRecapitulatif">
-                        <h3>Récapitulatif de votre envoie :</h3>
+                        <h3>Récapitulatif de votre envoi :</h3>
                         <div class="recapitulatifEmail">
                             <label><span class="material-symbols-rounded"> mail </span> Email :</label>
                             <input name="emailRecapitulatif" type="text" value=<?php echo ($emailRecapitulatifContact) ?> readonly disabled>
