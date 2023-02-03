@@ -13,7 +13,7 @@ $navigationEnCours = "accueil";
             <h2>Bienvenue sur Cook-Time</h2>
             <div class="containerPresentationAccueil">
                 <h2>Qui sommes-nous ?</h2>
-                <p>Nous ? Plutôt qui suis-je ? Je suis un étudiant en informatique et pour m'entraîner je me suis lancé dans ce projet qui est un site de recettes de cuisine et qui est totalement fonctionnel.<br>Ce site est avant tout pour moi et mon entourage je n'attends pas un grand public, donc il est fort possible que des erreurs s'y cachent...j'en suis désolé d'avance.<br>Si vous voulez participez aux recettes n'hésiter pas à vous inscrire, bien évidemment les données ne sont pas revendu ! C'est juste un site pour m'entraîner mais qui reste fonctionnel !<br>Voilà c'est tout pour moi, je vous laisse découvrir le reste.</p>
+                <p>Nous ? Plutôt qui suis-je ? Je suis un étudiant en informatique et pour m'entraîner je me suis lancé dans ce projet qui est un site de recettes de cuisine et qui est totalement fonctionnel.<br>Ce site est avant tout pour moi et mon entourage je n'attends pas un grand public, donc il est fort possible que des erreurs s'y cachent...j'en suis désolé d'avance.<br>Si vous voulez participer aux recettes n'hésiter pas à vous inscrire, bien évidemment les données ne sont pas revendues ! C'est juste un site pour m'entraîner mais qui reste fonctionnel !<br>Voilà c'est tout pour moi, je vous laisse découvrir le reste.</p>
                 <h2>Des recettes multiples</h2>
 
                 <div class="containerPhotosAccueil">
