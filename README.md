@@ -23,10 +23,6 @@
   <img src="https://raw.githubusercontent.com/Mart1n-S/Cook-Time/main/github/UI4.png" alt="image home project cook-time" /><br>
 </p>
 
-## 🍪 Try me out
-
-> 👉 [Cook-Time](https://cook-time.online/)
-
 <br>
 
 ## 🚀 Quick Start
